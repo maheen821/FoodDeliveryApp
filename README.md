@@ -1,51 +1,112 @@
-# Welcome to your Expo app 👋
+🍔 Food Delivery App (Expo + React Native)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern Food Delivery Mobile Application built using Expo & React Native, featuring user authentication, product browsing, cart management, and user-specific favorites — all powered by AsyncStorage for local persistence.
 
-## Get started
+🚀 Project Overview
 
-1. Install dependencies
+This project is a complete frontend-based food delivery app designed for learning and demonstration purposes.
+It simulates real-world food delivery app functionality such as:
 
-   ```bash
-   npm install
-   ```
+User Registration & Login
 
-2. Start the app
+Food Categories & Items
 
-   ```bash
-   npx expo start
-   ```
+Add to Cart
 
-In the output, you'll find options to open the app in a
+Favorites (Wishlist)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+User Profile
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Persistent Data using AsyncStorage
 
-## Get a fresh project
+The app is structured using Expo Router (file-based routing) for better scalability and clean navigation.
 
-When you're ready, run:
+🧠 Key Features
+👤 User Authentication
 
-```bash
-npm run reset-project
-```
+User Register & Login
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+User data stored locally using AsyncStorage
 
-## Learn more
+User-specific data handling (favorites)
 
-To learn more about developing your project with Expo, look at the following resources:
+🏠 Home Screen
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Food categories:
 
-## Join the community
+🍕 Pizza
 
-Join our community of developers creating universal apps.
+🍔 Burger
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-"# FoodDeliveryApp" 
+🍟 French Fries
+
+🍗 Chicken
+
+🌯 Rolls
+
+🥤 Drinks
+
+🥙 Kabab
+
+Grid-based food item layout
+
+Clean UI with images and prices
+
+❤️ Favorites System
+
+Add / Remove items from favorites
+
+Favorites saved per user (email-based key)
+
+Separate Favorites Screen
+
+Auto refresh on screen focus
+
+🛒 Cart System
+
+Add items to cart
+
+Quantity handling
+
+Cart count badge
+
+Cart data saved in AsyncStorage
+
+👤 Profile Section
+
+Displays logged-in user name
+
+Optional profile image
+
+Dynamic welcome message
+
+🔄 Persistent Storage
+
+Uses @react-native-async-storage/async-storage
+
+Data remains saved even after app reload
+
+🧩 Tech Stack
+📱 Frontend
+
+React Native
+
+Expo
+
+Expo Router (File-based routing)
+
+🧠 State Management
+
+React Hooks (useState, useEffect)
+
+useIsFocused for screen refresh
+
+💾 Local Storage
+
+AsyncStorage
+
+🎨 UI & Icons
+
+@expo/vector-icons
+
+Custom styling with StyleSheet
