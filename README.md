@@ -154,3 +154,4 @@ Expo Router (File-based routing)
 React Hooks (useState, useEffect)
 
 useIsFocused for auto-refresh
+"# FoodDeliveryApp" 
